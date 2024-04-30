@@ -1,8 +1,20 @@
-body{
-    margin: 0 auto;
-
-
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #efefef;
+    color: #1e244d;
+    font-family: Metropolis, Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-top: 0;
 }
+
+.container {
+    /* Agrega estilos para el contenido de tu página si es necesario */
+}
+
 .container,
 .container-fluid,
 .container-xxl,
@@ -184,36 +196,33 @@ body{
 
 
 .flexbox-titulo {
+    color: antiquewhite;
     align-items: center;
     display: flex;
     height: 150px;
     justify-content: center;
-    background: darkorange;
-    font-size: 60px
+    font-size: 80px;
     background-size: cover;
-    font-family: "Gill Sans MT Ext Condensed Bold";
 }
 .flexbox-subtitulo {
+    color: antiquewhite;
     align-items: center;
     display: flex;
     height:200px;
     justify-content: center;
-    background: darkorange;
-    font-size: 20px
+    font-size: 60px;
     background-size: cover;
-    font-family: "Gill Sans MT Ext Condensed Bold";
+    font-family: ;
 }
 .flexbox-parrafo {
+    color: antiquewhite;
     align-items: center;
     display: flex;
     height: auto;
     justify-content: center;
-    background: darkorange;
-    color: #333;
     font-size: 20px;
     background-size: cover;
-    background-color: orange;
-    font-family: "Gill Sans MT Ext Condensed Bold";
+
 
 }
 .contenedor-portada{
@@ -222,24 +231,42 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
     height: 400px;
-}
-.color-1 {
-    background-color: #1a1d20;
-}
-.pixeles{
-    height: 250px;
-    width: auto;
-
-
+    width: 1520px;
 }
 
-body{
-    backgroundimage: url(assets/image/imagefondo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.contenedor-fondo {
+    background-image: url("../image/background.jpg");
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
+}
+.contenedor-fondo2{
+    background-image: url("../image/titulo-1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    height: 400px;
+    width: 600px;
+
+
+
+}
+.fondo{
+    background-color: white;
+    opacity: 50%;
+}
+
+.center{
+    margin: 0 auto;
+    width: auto;
+    display: block;
+}
+
+.color-1{
+    background-color: lightblue;
 }
 
 

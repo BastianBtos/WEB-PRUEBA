@@ -2,24 +2,24 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRUEBA</title>
-    <link class="contenedor-portada" rel="icon" href="assets/image/logo_01.png">
+    <link rel="icon" href="assets/image/logo_01.png">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
 <section>
-
 <!-- PORTADA SUPERIOR -->
 <div class="contenedor-portada"></div>
+    <div class="contenedor-fondo">
 
 <!-- TITULO 1-->
     <section>
-        <div class="container-fluid">
+        <div class="container-fluid contenedor-fondo2 eye">
             <div class="raw">
-                <div class="col-12">
-                    <h1 class="flexbox-titulo">DRAGON BALL FIGHTER Z</h1>
+                <div class="col-12" >
+                    <a class="flexbox-titulo"></a>
                 </div>
             </div>
         </div>
@@ -44,15 +44,23 @@
             <div class="raw">
                 <div class="col-12">
                     <h2 class="flexbox-subtitulo">TRAILER</h2>
-                    <p style="text-align: justify" class="flexbox-parrafo">DRAGON BALL FighterZ conserva la esencia de la famosa saga DRAGON BALL: espectaculares combates entre poderosos luchadores. El juego, resultado de la colaboración con Arc System Works, cuenta con gráficos anime de alta calidad y unos combates de aprendizaje sencillo pero difíciles de dominar.</p>
-                </div>
-                <div class="col-6">
-
                 </div>
             </div>
         </div>
     </section>
-    
+        <section>
+            <div class="container-fluid">
+                <div class="raw">
+                    <div class="col-12" >
+                        <video class="center" controls muted autoplay>
+                            <source src="assets/image/trailer.mp4" type="video/mp4">
+                                <source src="assets/image/trailer.mp4" type="video/ogg">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 <!--personajes-->
 <section>
@@ -65,22 +73,21 @@
     </div>
 </section>
     <section>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-
             <!-- fila 1 personaje 1-->
             <div class="col-3">
                 <div class="card color-1" style="width: 17rem;">
-                    <img src="assets/image/androide-21.webp" class="card-img-top color-1 pixeles" alt="...">
+                    <img src="assets/image/androide-21.webp" class="card-img-top color-1" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">ANDROIDE 21</h5>
                             <div class="accordion" id="accordionexample">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                         SOBRE EL PERSONAJE
                                     </button>
                                 </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <strong></strong> <p style="text-align: justify" class="card-text pixeles-2">La Androide Número 21 (人造人間２１号, Jinzōningen Nijūichi-gō) es un androide creado a base humana que aparece por primera vez en el videojuego Dragon Ball FighterZ. Es una científica del Ejército Red Ribbon. Ella explica que “ni siquiera” tiene diez años y fue "construida" a imagen de una mujer humana con el coeficiente de inteligencia de un adulto.</p><code></code>
                                     </div>
@@ -101,11 +108,11 @@
                         <h5 class="card-title">GOKU BASE</h5>
                         <div class="accordion" id="accordionexample">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
                                     SOBRE EL PERSONAJE
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div id="collapse2" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <strong></strong> <p style="text-align: justify" class="card-text pixeles-2">Son Goku (孫そん悟ご空くう, Son Gokū) es el protagonista principal del manga y anime de Dragon Ball creado por Akira Toriyama. Su nombre real y de nacimiento es Kakarotto (カカロット, Kakarotto «Kacarrot» en saiyano en alfabeto saiyano) y es uno de los pocos saiyanos que lograron sobrevivir a la destrucción total del Planeta Vegeta del Universo 7. Es el segundo hijo de Bardock y Gine, hermano menor de Raditz, nieto adoptivo de Son Gohan, esposo de Chi-Chi, padre de Son Gohan y Son Goten, a su vez también es el abuelo de Pan y ancestro de Son Goku Jr.</p><code></code>
                                 </div>
@@ -126,11 +133,11 @@
                         <h5 class="card-title">GOGETA</h5>
                         <div class="accordion" id="accordionexample">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
                                     SOBRE EL PERSONAJE
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div id="collapse3" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <strong></strong> <p style="text-align: justify" class="card-text pixeles-2">Gogeta (ゴジータ, Gojīta) es el resultado de la fusión saiyana nacida mediante la unión entre Goku y Vegeta realizando la Danza de la Fusión de los metamoranos, existiendo como la contraparte de Vegetto, su Fusión Pothala.</p><code></code>
                                 </div>
@@ -151,11 +158,11 @@
                         <h5 class="card-title">VEGITO</h5>
                         <div class="accordion" id="accordionexample">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
                                     SOBRE EL PERSONAJE
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div id="collapse4" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <strong></strong> <p style="text-align: justify" class="card-text pixeles-2">Vegetto (ベジット, Bejitto) es el resultado de la unificación entre Vegeta y Kakarotto mediante los Pothala dados por las deidades Kaio-shin, existiendo como la contraparte de Gogeta, su fusión por la danza metamorana.</p><code></code>
                                 </div>
@@ -170,8 +177,9 @@
         </div>
     </div>
 </section>
+        <h1>&emsp;</h1>
 <section>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
 
             <!-- fila 2 personaje 1-->
@@ -182,11 +190,11 @@
                         <h5 class="card-title">VEGETA BASE</h5>
                         <div class="accordion" id="accordionexample">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
                                     SOBRE EL PERSONAJE
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div id="collapse5" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <strong></strong> <p style="text-align: justify" class="card-text pixeles-2">Vegeta IV (ベジータ四世, Bejīta Yon-sei[29]), reconocido como el Príncipe Vegeta (ベジータ王子, Bejīta-ōji) y conocido mayormente como Vegeta (ベジータ, Bejīta), es el deuteragonista de Dragon Ball Z, Dragon Ball Z Kai y Dragon Ball Super.
                                     Es el hijo mayor del rey Vegeta III, así como el príncipe más reciente de la familia real saiyana y uno de los pocos supervivientes tras el genocidio saiyano del planeta Vegeta del Universo 7, a manos de Freeza. Es el eterno rival de Son Goku, hermano mayor de Tarble, el esposo de Bulma, padre de Trunks y Bra y ancestro de Vegeta Jr.</p><code></code>
@@ -208,11 +216,11 @@
                         <h5 class="card-title">JANEMBA</h5>
                         <div class="accordion" id="accordionexample">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
                                     SOBRE EL PERSONAJE
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div id="collapse6" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <strong></strong> <p style="text-align: justify" class="card-text pixeles-2">Janemba (ジャネンバ, Janenba) es un demonio de pura maldad y gran poder maligno. Creado a partir de las acciones de un adolescente ogro llamado Psyche Oni, quien era el responsable de vigilar la máquina purificadora de almas, la cual explota como consecuencia de la falta de cuidado del ogro, las almas malignas terminan por usar como huésped su cuerpo, creando así a este demonio.</p><code></code>
                                 </div>
@@ -233,11 +241,11 @@
                         <h5 class="card-title">GOHAN</h5>
                         <div class="accordion" id="accordionexample">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
                                     SOBRE EL PERSONAJE
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div id="collapse7" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <strong></strong> <p style="text-align: justify" class="card-text pixeles-2">Son Gohan (孫そん悟ご飯はん, Son Gohan), Son Gohanda[29] en su tiempo en España, o simplemente Gohan en Hispanoamérica, es uno de los personajes principales de los arcos argumentales de Dragon Ball Z, Dragon Ball Super y Dragon Ball GT. Es un mestizo entre saiyano y humano terrícola. Es el primer hijo de Son Goku y Chi-Chi, hermano mayor de Son Goten, esposo de Videl y padre de Pan.</p><code></code>
                                 </div>
@@ -258,16 +266,17 @@
                         <h5 class="card-title">BROLY</h5>
                         <div class="accordion" id="accordionexample">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
                                     SOBRE EL PERSONAJE
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div id="collapse8" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <strong></strong> <p style="text-align: justify" class="card-text pixeles-2">Broly (ブロリー, Burorī, Broli) es un personaje exclusivo de las películas de la serie de anime de Dragon Ball Z. Es un saiyano de raza pura que sobrevivió a la destrucción del Planeta Vegeta junto a su padre Paragus, pero además es un Supersaiyano Legendario, del cual el último surgió hace mil años.</p><code></code>
                                 </div>
-                                <a href="https://dragonball.fandom.com/es/wiki/Broly">SABER MAS</a>
+                                <a href="https://dragonball.fandom.com/es/wiki/Broly" class="btn btn-primary">SABER MAS</a>
                             </div>
+
                         </div>
 
 
@@ -326,6 +335,7 @@
         </div>
     </div>
 </section>
+    </div>
 </section>
 
     <script src="assets/js/bootstrap.bundle.js"></script>
