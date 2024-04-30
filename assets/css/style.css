@@ -238,7 +238,6 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: auto;
-
     height: 400px;
     width: 600px;
 
@@ -260,5 +259,12 @@ body {
     background-color: #731f19;
     color: white;
 }
+
+.redondeo{
+    border-radius: 10px;
+}
+
+
+
 
 
