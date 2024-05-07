@@ -11,184 +11,8 @@ body {
 
 }
 
-.container,
-.container-fluid,
-.container-xxl,
-.container-xl,
-.container-lg,
-.container-md,
-.container-sm {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-    margin-right: auto;
-    margin-left: auto;
-}
-.row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-0.5 * var(--bs-gutter-x));
-    margin-left: calc(-0.5 * var(--bs-gutter-x));
-}
-.col-auto {
-    flex: 0 0 auto;
-    width: auto;
-}
 
-.col-1 {
-    flex: 0 0 auto;
-    width: 8.33333333%;
-}
 
-.col-2 {
-    flex: 0 0 auto;
-    width: 16.66666667%;
-}
-
-.col-3 {
-    flex: 0 0 auto;
-    width: 25%;
-}
-
-.col-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
-}
-
-.col-5 {
-    flex: 0 0 auto;
-    width: 41.66666667%;
-}
-
-.col-6 {
-    flex: 0 0 auto;
-    width: 50%;
-}
-
-.col-7 {
-    flex: 0 0 auto;
-    width: 58.33333333%;
-}
-
-.col-8 {
-    flex: 0 0 auto;
-    width: 66.66666667%;
-}
-
-.col-9 {
-    flex: 0 0 auto;
-    width: 75%;
-}
-
-.col-10 {
-    flex: 0 0 auto;
-    width: 83.33333333%;
-}
-
-.col-11 {
-    flex: 0 0 auto;
-    width: 91.66666667%;
-}
-
-.col-12 {
-    flex: 0 0 auto;
-    width: 100%;
-}body{
-     margin: 0 auto;
- }
-.container,
-.container-fluid,
-.container-xxl,
-.container-xl,
-.container-lg,
-.container-md,
-.container-sm {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-    margin-right: auto;
-    margin-left: auto;
-}
-.row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-0.5 * var(--bs-gutter-x));
-    margin-left: calc(-0.5 * var(--bs-gutter-x));
-}
-.col-auto {
-    flex: 0 0 auto;
-    width: auto;
-}
-
-.col-1 {
-    flex: 0 0 auto;
-    width: 8.33333333%;
-}
-
-.col-2 {
-    flex: 0 0 auto;
-    width: 16.66666667%;
-}
-
-.col-3 {
-    flex: 0 0 auto;
-    width: 25%;
-}
-
-.col-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
-}
-
-.col-5 {
-    flex: 0 0 auto;
-    width: 41.66666667%;
-}
-
-.col-6 {
-    flex: 0 0 auto;
-    width: 50%;
-}
-
-.col-7 {
-    flex: 0 0 auto;
-    width: 58.33333333%;
-}
-
-.col-8 {
-    flex: 0 0 auto;
-    width: 66.66666667%;
-}
-
-.col-9 {
-    flex: 0 0 auto;
-    width: 75%;
-}
-
-.col-10 {
-    flex: 0 0 auto;
-    width: 83.33333333%;
-}
-
-.col-11 {
-    flex: 0 0 auto;
-    width: 91.66666667%;
-}
-
-.col-12 {
-    flex: 0 0 auto;
-    width: 100%;
-}
 
 .flexbox-titulo-logo {
     color: antiquewhite;
@@ -199,15 +23,7 @@ body {
     font-size: 80px;
 }
 
-.flexbox-titulo {
-    color: antiquewhite;
-    align-items: center;
-    display: flex;
-    height: 150px;
-    justify-content: center;
-    font-size: 1.5vw;
-    background-size: cover;
-}
+
 .flexbox-subtitulo {
     color: antiquewhite;
     align-items: center;
@@ -230,7 +46,7 @@ body {
     background-position: center center;
     background-repeat:no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 25vw;
     width: auto;
 }
 
@@ -270,11 +86,7 @@ body {
 
 }
 
-.datos-ultimos{
-    background-color: black;
-    height: 400px;
 
-}
 
 .responsivo{
     width: 100%;
@@ -283,18 +95,47 @@ body {
 
 
 .card-text{
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 .accordion-button{
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 .card-title{
-    font-size: 1vw;
+    font-size: 1.5vw;
+}
+
+html, body {
+    width: 100%!important;
+    overflow-x: hidden!important;
 }
 
 
 
+.datos-ultimos{
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    color: black;
 
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.datos-ultimos2{
+    font-size: 2vw;
+    background-color: dimgray;
+    height: 5vw;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 
+}
+
+.responsivo2{
+    height: 3vw;
+    width: 3vw;
+}

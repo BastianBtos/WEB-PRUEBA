@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRUEBA</title>
+    <title>DRAGON BALL FIGHTER Z</title>
 
     <!--MINILOGO PAGINA-->
     <link rel="icon" href="assets/image/logo_01.png">
@@ -16,26 +16,35 @@
 <body>
 
 <section>
-    <!--PORTADA SUPERIOR Y FONDO-->
+    <!--BARRA DE NAVEGACION-->
 
     <div class="contrainer-fluid">
         <div class="row">
             <div class="col-12">
-                <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-                    <nav class="navbar bg-body-tertiary">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="http://localhost:63342/WEB-PRUEBA/index.html?_ijt=8p6dkse4ur06scn81e5k4amvki#">
-                                <img src="assets/image/logo_01.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                                DBFZ
-                            </a>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/image/titulo-1.png" alt="Logo" width="140" height="48" class="d-inline-block align-text-top">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" href="#historia">HISTORIA</a>
+                                <a class="nav-link active" aria-current="page" href="#TRAILER">TRAILER</a>
+                                <a class="nav-link active" aria-current="page" href="#PERSONAJES">PERSONAJES</a>
+                                <a class="nav-link active" aria-current="page" href="#GAMEPLAY">GAMEPLAY</a>
+                            </div>
                         </div>
-                    </nav>
+                    </div>
                 </nav>
 
             </div>
         </div>
     </div>
 
+    <!--PORTADA SUPERIOR Y FONDO-->
     <div class="contenedor-portada"></div>
     <div class="contenedor-fondo">
 
@@ -53,7 +62,7 @@
 
         <!--HISTORIA-->
         <section>
-            <div class="container">
+            <div class="container" id="historia">
                 <div class="raw">
                     <div class="col-12">
                         <!--SUBTITULO-->
@@ -69,7 +78,7 @@
 
         <!--TRAILER VIDEO-->
         <section>
-            <div class="container-fluid">
+            <div class="container-fluid" id="TRAILER">
                 <div class="raw">
                     <div class="col-12">
                         <h2 class="flexbox-subtitulo">TRAILER</h2>
@@ -92,7 +101,7 @@
 
         <!--PERSONAJES-->
         <section>
-            <div class="container-fluid">
+            <div class="container-fluid" id="PERSONAJES">
                 <div class="raw">
                     <div class="col-12">
                         <h2 class="flexbox-subtitulo">PERSONAJES</h2>
@@ -108,7 +117,7 @@
                     <!-- fila 1 personaje 1-->
                     <div class="col-3">
                         <div class="card color-1" style="width: 100%;">
-                            <img src="assets/image/androide-21.webp" class="card-img-top color-1 responsivo" alt="...">
+                            <img src="assets/image/androide-21.webp" class="card-img-top responsivo" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     ANDROIDE 21
@@ -121,7 +130,7 @@
                                     </h2>
                                     <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong></strong> <p style="text-align: justify" class="card-text">La Androide Número 21 (人造人間２１号, Jinzōningen Nijūichi-gō) es un androide creado a base humana que aparece por primera vez en el videojuego Dragon Ball FighterZ. Es una científica del Ejército Red Ribbon. Ella explica que “ni siquiera” tiene diez años y fue "construida" a imagen de una mujer humana con el coeficiente de inteligencia de un adulto.</p><code></code>
+                                            <strong></strong> <p style="text-align: justify " class="card-text">La Androide Número 21 (人造人間２１号, Jinzōningen Nijūichi-gō) es un androide creado a base humana que aparece por primera vez en el videojuego Dragon Ball FighterZ. Es una científica del Ejército Red Ribbon. Ella explica que “ni siquiera” tiene diez años y fue "construida" a imagen de una mujer humana con el coeficiente de inteligencia de un adulto.</p><code></code>
                                         </div>
                                         <a href="https://dragonball.fandom.com/es/wiki/Androide_N%C3%BAmero_21" class="btn btn-primary">SABER MAS</a>
                                     </div>
@@ -307,7 +316,7 @@
 
         <!-- TITULO GAMEMPLAY-->
         <section>
-            <div class="container-fluid">
+            <div class="container-fluid" id="GAMEPLAY">
                 <div class="raw">
                     <div class="col-12">
                         <h1 class="flexbox-subtitulo">GAMEPLAY</h1>
@@ -361,15 +370,42 @@
         </section>
     </div>
 </section>
-<section class="datos-ultimos">
-    <div class="container-fluid">
-        <div class="raw">
-            <div class="col-12">
 
+<!--DATOS FONDO-->
+<section class="datos-ultimos">
+    <div class="container">
+        <div class="raw" style="padding: 10px">
+            <div class="col-6">
+                <h1 style="font-size: 4vw">Contacto</h1>
+                <p>+569 99813312</p>
+                <p>bandainamco.dbfz@bandai.com</p>
+            </div>
+            <div class="col-6" >
+                <a class="navbar-brand" href="https://twitter.com/bandainamcoeu">
+                    <img src="assets/image/twitter.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top responsivo2">
+                </a>
+                <a class="navbar-brand" href="https://www.instagram.com/bandainamcoeu/">
+                    <img src="assets/image/instragram.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top responsivo2">
+                </a>
+                <a class="navbar-brand" href="https://www.facebook.com/bandainamcolatinoamerica/?brand_redir=233213603406398">
+                    <img src="assets/image/facebook.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top responsivo2">
+                </a>
             </div>
         </div>
     </div>
 </section>
+
+<section class="datos-ultimos2">
+    <div class="container">
+        <div class="raw">
+            <div class="col-12">
+                © 2010 - 2024 Bandai Namco Europe S.A.S
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <!--SCRIPBOOTSTRAP-->
 <script src="assets/js/bootstrap.bundle.js"></script>
 
